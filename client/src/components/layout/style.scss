@@ -1,0 +1,124 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.furpic{
+		width: 80vw!important;
+		height: 50vh!important;
+	}
+	.welcomepage{
+		width: 40vw!important;
+		height: 50vh!important;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	.furpic{
+		width: 55vw!important;
+		height: 70vh!important;}
+		.welcomepage{
+			width: 40vw!important;
+			height: 50vh!important;
+		}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	.furpic{
+		width: 80vw!important;
+		height: 40vh!important;}
+		.welcomepage{
+			width: 80vw!important;
+			height: 50vh!important;
+		}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	.furpic{
+		width: 70vw!important;
+		height: 40vh!important;}
+		.welcomepage{
+			width: 60vw!important;
+			height: 50vh!important;
+		}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.furpic{
+		width: 70vw!important;
+		height: 40vh!important;}
+		.welcomepage{
+			width: 60vw!important;
+			height: 50vh!important;
+		}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	.furpic{
+		width: 70vw!important;
+		height: 40vh!important;}
+		.welcomepage{
+			width: 60vw!important;
+			height: 50vh!important;
+		}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+
+	.furpic{
+		width: 30vw!important;
+		height: 75vh!important;}
+		.welcomepage{
+			padding-top: 20px;
+			width: 30vw!important;
+			height: 60vh!important;
+		}
+		.Right-pic{
+			height: 100vh!important;
+			width: 20vw!important;
+		}
+		.welcomepage-login{
+			height: 20vh!important;
+			width: 20vw!important;
+		}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	.furpic{
+		width: 30vw!important;
+		height: 70vh!important;}
+		.welcomepage{
+			padding-top: 20px;
+			width: 30vw!important;
+			height: 50vh!important;
+		}
+		.Right-pic{
+			height: 100vh;
+			width: 20vw;
+		}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
