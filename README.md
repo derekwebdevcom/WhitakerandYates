@@ -1,4 +1,4 @@
-# mern-auth
+# MERN Stack Authentication
 
 ![Final App](https://derekwebdev.com/gifs/foreverbook.gif)
 
