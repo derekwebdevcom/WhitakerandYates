@@ -1,7 +1,8 @@
 # mern-auth
 
 ![Final App](https://derekwebdev.com/gifs/foreverbook.gif)
-Minimal full-stack MERN app with authentication using passport and JWTs.
+
+Whitaker & Yates Furrier and Luxury Goods Storage Service MERN/Redux MongoDB w/User Authentication
 
 This project uses the following technologies:
 
@@ -10,15 +11,10 @@ This project uses the following technologies:
 - [MongoDB](https://www.mongodb.com/) for the database
 - [Redux](https://redux.js.org/basics/usagewithreact) for state management between React components
 
-## Medium Series
-
-- [Build a Login/Auth App with the MERN Stack — Part 1 (Backend)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
-- [Build a Login/Auth App with the MERN Stack — Part 2 (Frontend & Redux Setup)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82)
-- [Build a Login/Auth App with the MERN Stack — Part 3 (Linking Redux with React Components)](https://blog.bitsrc.io/build-a-login-auth-app-with-the-mern-stack-part-3-react-components-88190f8db718)
 
 ## Configuration
 
-Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
+Make sure to add your own `MONGOURI` from your [MongoDB](https://www.mongodb.com/cloud/atlas/lp/general/try?utm_source=google&utm_campaign=gs_americas_united%20states_search_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&gclid=Cj0KCQjw6sHzBRCbARIsAF8FMpVgmBn-nx2t9KvysxPMTJ3phthpffmnG8FgwclroUl1xi0uKV4WX78aAmRBEALw_wcB) database in `config/keys.js`.
 
 ```javascript
 module.exports = {
@@ -26,17 +22,11 @@ module.exports = {
   secretOrKey: "secret"
 };
 ```
+-[Clone](https://github.com/derekwebdevcom/WhitakerandYates.git) for Mac or
+-[Download Zip](https://github.com/derekwebdevcom/WhitakerandYates/archive/master.zip) for Windows
 
 ## Quick Start
 
-```javascript
-// Install dependencies for server & client
-npm install && npm run client-install
+// NPM install and UI will be hosted on port
+ http://localhost:3000
 
-// Run client & server with concurrently
-npm run dev
-
-// Server runs on http://localhost:5000 and client on http://localhost:3000
-```
-
-For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
