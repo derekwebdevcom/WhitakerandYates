@@ -1,6 +1,6 @@
 # MERN Stack Authentication
 
-![Final App](https://derekwebdev.com/gifs/foreverbook.gif)
+![Final App](https://derekwebdev.com/gifs/whitaker.gif)
 
 Whitaker & Yates Furrier and Luxury Goods Storage Service MERN/Redux MongoDB w/User Authentication
 
